@@ -1,0 +1,80 @@
+ #pic{
+   width: 15%;
+   text-align: center;
+   padding-right: 1e;
+   order: 3;
+   align-self: flex-start;
+ }
+ .aboutflex{
+  font-family: 'PT Serif';
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+ }
+ #head{
+  width: 30%;
+  border-style: inset;
+  border-radius: 3%;
+  background-color: black;
+  color: #FAEBD7;
+  text-align: center;
+ }
+ #p2 {
+  width: 100%;
+  border-style: inset;
+  border-color: #FAEBD7;
+  border-radius: 2%;
+  font-size: larger;
+  color: #FAEBD7;
+  background-color: black;
+  padding: 2%;
+}
+#whale {
+  width: 100%; 
+}
+ #tex {
+  width: 100%;
+  order: 2;
+  font-size: larger;
+  border-style: inset;
+  border-width: .25em;
+  border-color: #FAEBD7;
+  border-radius: 2%;
+  background-color: black;
+  color: #FAEBD7;
+  padding: 2%;
+ }
+ #phil{
+  width:100%;
+  align-self: flex-end;
+ }
+#ladyb{
+  order: 2;
+  width: 111.5%;
+  border-style: solid;
+}
+.out2{
+  display: flex;
+  align-content: space-between; 
+  justify-content: space-evenly;
+  background-color: black;
+  width: 101%;
+}
+#firstproj {
+  width: 50em;
+  height: 27em;
+  background-color: #FAEBD7;
+  border-style: solid;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#secondproj {
+  width: 50em;
+  height: 27em;
+  background-color: #FAEBD7;
+  border-style: solid;
+  overflow: scroll;
+  overflow-x: hidden;
+}

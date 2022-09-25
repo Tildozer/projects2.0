@@ -1,0 +1,101 @@
+ /* Universal for all 3 pages */
+#link {
+  text-align: center;
+  font-family: 'PT Serif';
+  padding: 2%;
+  order: 2;
+ flex-grow: 2;
+}
+a:link, a:visited {
+  background-color: #FAEBD7;
+  color: black;
+  text-decoration: none;
+  border-radius: .5em;
+  border-width: .3em;
+  border-style: solid;
+}
+a:hover, a:active {
+  background-color: #001078;
+}
+body {
+  background-color: #006E78;
+  padding: 0%;
+  margin: 0%;
+}
+#name {
+  font-family: 'M PLUS 1p';
+  font-size: xx-large;
+  background-color: black;
+  color: 		#FAEBD7;
+  border-style: inset;
+  border-width: 1.5mm;
+  border-radius: 1.3mm;
+  border-color: #FAEBD7;
+  width: fit-content;
+  padding: 3px;
+  order: 1;
+  align-self: flex-start;
+}
+#title{
+  background-color: black;
+  color: #FAEBD7;
+  width: 15%;
+  text-align: center;
+  border-style: inset;
+  border-radius: .8em;
+  padding-right: 1e;
+  order: 3;
+  align-self: flex-start;
+}
+.flexbox1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  border-radius: 5%;
+}
+/* end of Univ */
+.flexbox2 {
+   display: flex;
+   align-items: flex-start;
+  flex-wrap: wrap;
+   flex-flow: row;
+   width: 100%
+}
+#para1{
+   width: 15%;
+   background-color: #FAEBD7;
+   text-align: center;
+   order: 3;
+   border-style: solid;
+   border-radius: 1em;
+}
+#para2{
+  order: 1;
+  align-self: center;
+  width: 15%;
+  background-color: #FAEBD7;
+  text-align: center;
+  border-style: solid;
+  border-radius: 1em;
+}
+#tree{
+  width: 70%;
+  border-style: solid;
+  display: inline;
+  order: 2; 
+}
+/* if updated will need to make sure all footers are taken into account. */
+.out {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-evenly;
+  background-color: black;
+  width: 105%;
+}
+#lorem {
+  display: flex;
+  align-content: center;
+ background-color: #FAEBD7;
+ border-style: solid;
+ border-radius: 2%;
+}
